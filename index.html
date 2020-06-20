@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Proyecto</title>
+	<script src="https://www.gstatic.com/firebasejs/7.15.3/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.15.3/firebase-auth.js"></script>
+	<script>
+	  var firebaseConfig = {
+	    apiKey: "AIzaSyAcMSozdFsmZE1NAHDAXFH2ochdkw5Jdqw",
+	    authDomain: "probandoproyecto-7f0c5.firebaseapp.com",
+	    databaseURL: "https://probandoproyecto-7f0c5.firebaseio.com",
+	    projectId: "probandoproyecto-7f0c5",
+	    storageBucket: "probandoproyecto-7f0c5.appspot.com",
+	    messagingSenderId: "597586050997",
+	    appId: "1:597586050997:web:9f40fbbdfa2a9bd4e8e3fc",
+	    measurementId: "G-W1H1WE6CKV"
+	  };
+	  // Initialize Firebase
+	  firebase.initializeApp(firebaseConfig);
+	  firebase.auth();
+	</script>
+</head>
+<body>
+
+	<h1>Registrarse</h1>
+
+	<input id="email" type="email" placeholder="Ingresa email"><br><br>
+	<input id="contrasena" type="password" placeholder="Ingresa contraseña"><br><br>
+	<button onclick="registrar()">Enviar</button>
+
+	<br><br><br>
+
+	<h1>Iniciar Sesión</h1>
+
+	<input id="email2" type="email" placeholder="Ingresa email"><br><br>
+	<input id="contrasena2" type="password" placeholder="Ingresa contraseña"><br><br>
+	<button onclick="ingresar()">Acceder</button>
+
+	<
+
+	<div id="contenido"></div> <!-- DESDE ACA SE PUEDE ENVIAR A OTRA PAGINA -->
+
+
+	<script src="js/app.js"></script>
+	
+</body>
+</html>
